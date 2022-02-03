@@ -42,24 +42,31 @@ header {
   display: table;
   clear: both;
 }
-/* Prefixed size */
+
+/* Prefixed size px */
 .wd-100px {
   width: 100px;
   vertical-align: middle;
 }
-/* Prefixed size */
+/* Prefixed size px */
 .wd-200px {
   width: 200px;
   vertical-align: middle;
   text-align: center;
 }
+/* Prefixed size in percentual*/
+.wd-60p {
+  width: 60%;
+}
 
+/*Logo page */
 .logo {
   height: 50px;
   line-height: 50px;
   width: 200px;
 }
 
+/* Start customing navigation bar with relative functions */
 .nav {
   text-align: center;
   height: 50px;
@@ -81,6 +88,7 @@ li a {
   text-decoration: none;
   color: white;
 }
+/* Finish nav bar */
 
 /*Custom button of top-header */
 .btn {
@@ -137,3 +145,40 @@ li a {
   color: white;
 }
 /* Finish customing section Header*/
+
+/*Start first section*/
+
+.first-section .container {
+  color: black;
+}
+
+/* Setting position img and text of the first section*/
+.first-section img {
+  margin-top: 50px;
+}
+/* Container of text*/
+.mini-section {
+  width: 30%;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.first-section h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.first-section p {
+  font-size: 14px;
+}
+
+/* Start second section */
+.second-section {
+  background-color: hsl(0deg 0% 96%);
+}
+/*Tools debug*/
+
+.debug .container {
+  border: 1px solid red;
+}
