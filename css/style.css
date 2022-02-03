@@ -158,7 +158,8 @@ li a {
 
 /* Setting position img and text of the first section*/
 .first-section img,
-.second-section img {
+.second-section img,
+.third-section img {
   margin-top: 50px;
 }
 /* Container of text*/
