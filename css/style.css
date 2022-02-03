@@ -173,6 +173,13 @@ li a {
   font-size: 14px;
 }
 
+/* Custom effect wave */
+
+.wave {
+  display: block;
+  color: hsl(0deg 0% 96%);
+}
+
 /* Start second section */
 .second-section {
   background-color: hsl(0deg 0% 96%);
