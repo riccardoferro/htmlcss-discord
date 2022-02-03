@@ -6,20 +6,23 @@
 }
 /*Set font */
 body {
-  font-family: serif;
+  font-family: sans-serif;
+}
+
+/* Establsh the width of content about each section */
+.container {
+  height: 500px;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
 }
 
 /* Start customing section HEADER */
 
 header {
-  margin-top: 10px;
-  height: 300px;
-}
-
-.container {
-  height: 300px;
-  max-width: 800px;
-  margin: auto;
+  height: 500px;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
 }
 
 /*Start customing top-header*/
@@ -30,76 +33,107 @@ header {
   width: 100%;
 }
 
+.float-left {
+  float: left;
+}
+
 .clearfix {
   content: "";
   display: table;
   clear: both;
 }
+/* Prefixed size */
+.wd-100px {
+  width: 100px;
+  vertical-align: middle;
+}
+/* Prefixed size */
+.wd-200px {
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
+}
 
 .logo {
-  float: left;
   height: 50px;
+  line-height: 50px;
   width: 200px;
 }
 
 .nav {
-  float: left;
   text-align: center;
   height: 50px;
   width: 396px;
 }
 
+/*Custom list-item of the nav bar */
 li {
   list-style-type: none;
-  height: 40px;
-  width: 70px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
   display: inline-block;
+  margin-left: 20px;
 }
 
+li a {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/*Custom button of top-header */
 .btn {
-  height: 50px;
-  width: 200px;
-  float: left;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 /*Start customing bottom-header*/
 
 .bottom-header {
-  height: 250px;
+  height: 450px;
   width: 100%;
 }
 
+.content-bottom {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-bottom h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.content-bottom p {
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/*Custom Button large used mainly for the bottom-header */
+.btn-lrg {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 20px;
+}
+/* BG black and color white*/
+.dark-btn {
+  background-color: black;
+  color: white;
+}
 /* Finish customing section Header*/
-/*Tools debug*/
-
-.debug header {
-  border: 1px solid black;
-}
-
-.debug .container {
-  border: 1px solid red;
-}
-
-.debug .top-header {
-  border: 1px solid purple;
-}
-
-.debug .bottom-header {
-  border: 1px solid violet;
-}
-
-.debug .logo {
-  border: 1px solid yellow;
-}
-
-.debug .nav {
-  border: 1px solid goldenrod;
-}
-
-.debug .btn {
-  border: 1px solid blue;
-}
-
-.debug li {
-  border: 1px solid black;
-}
